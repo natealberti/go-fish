@@ -1,2 +1,4 @@
 # go-fish
 Play go fish against the program and manipulate card decks
+
+Pretty cool java program I created that runs through the console. The Card.java class defines a card object that has a suit and a number. The DeckHand.java class defines a deck of cards, using arrays. It has an initial max size of 52 but it can expand if needed. I also added some useful functions for implementing the go fish game. DeckHandApplication.java is where I implemented the program itself, it has a main menu where you can choose to test some decks or play go fish against the computer. Testing the decks just lets the user test the functions I created in DeckHand.java, but on a custom deck (empty or filled with the standard deck hand). In go fish, the computer simply chooses a random card to ask the user for rather than implementing a specific strategy. Surprisingly I've found it to be a good opponenet (it nearly beat me the first run through...).
